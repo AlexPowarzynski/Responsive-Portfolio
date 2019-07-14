@@ -226,6 +226,9 @@ input[type=submit] {
     position: absolute;
     right: 20px;
   }
+  .main-section {
+    margin: 0 0 10px;
+  }
 }
 
 
