@@ -217,11 +217,11 @@ input[type=submit] {
 }
 
 /* Media Queries*/
-@media screen and (min-width: 600px){
-  Nav a {
-    display: inline-block;
-    margin-right: 20px;
-    padding: 0 0;
+@media screen and (max-width: 600px){
+  #masthead {
+    position: fixed;
+    margin: 0 30px 40px -10px;
+
   }
   body {
     font-size: 25px;
