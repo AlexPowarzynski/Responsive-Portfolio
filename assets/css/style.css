@@ -217,15 +217,13 @@ input[type=submit] {
 }
 
 /* Media Queries*/
-@media screen and (max-width: 600px){
-  #masthead {
-    position: fixed;
-    margin: 0 30px 40px -10px;
 
-  }
-  body {
-    font-size: 25px;
-  }
+
+@media screen and (max-width: 600px){
+ nav {
+   margin: 0 0 0 -10px;
+   float: left;
+ }  
 }
 
 
