@@ -217,17 +217,14 @@ input[type=submit] {
 }
 
 /* Media Queries*/
-@media screen and (max-width: 600px){
-  #masthead {
-    position: relative;
-
+@media screen and (min-width: 600px){
+  Nav a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 0;
   }
-  nav {
-    position: absolute;
-    right: 20px;
-  }
-  .main-section {
-    margin: 0 0 10px;
+  body {
+    font-size: 25px;
   }
 }
 
