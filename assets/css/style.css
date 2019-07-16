@@ -224,6 +224,17 @@ input[type=submit] {
    margin: 0 0 0 -10px;
    float: left;
  }  
+ #masthead {
+   left: -3px;
+}
+#logo {
+  width: 100%;
+}
+nav {
+  position: relative;
+  right: -45px;
+  margin-top: 5px;
+}
 }
 
 
